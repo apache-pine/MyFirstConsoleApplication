@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography;
 
 namespace MyFirstConsoleApplication
 {
@@ -22,11 +21,11 @@ namespace MyFirstConsoleApplication
             double width, height, woodLength, glassArea;
             string widthString, heightString;
 
-            Console.WriteLine("Please enter the width of the window in feet.");
+            Console.WriteLine("Please enter the width of the window in meters.");
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
 
-            Console.WriteLine("Please enter the height of the window in feet.");
+            Console.WriteLine("Please enter the height of the window in meters.");
             heightString = Console.ReadLine();
             height = double.Parse(heightString);
 
